@@ -34,6 +34,6 @@ Each entry records what was decided, why, and what alternatives were rejected.
 
 ## D6 Clean repository and zero AI attribution (2026-11-14)
 
-- **Decision**: Host source on `https://github.com/huazaipang-gif/TABS-Open-Alpha-Trump` with `dist/` gitignored, shipping compiled DLLs via GitHub Releases (`v1.0.0+`). Commits and PRs carry only `huazaipang-gif` as author with no `Co-Authored-By` trailers.
+- **Decision**: Host source on `https://github.com/huazaipang/TABS-Open-Alpha-Trump` with `dist/` gitignored, shipping compiled DLLs via GitHub Releases (`v1.0.0+`). Commits and PRs carry only `huazaipang` as author with no `Co-Authored-By` trailers.
 - **Why**: Keeps contributor history clean and prevents binary bloat in git history.
 - **Rejected**: Committing compiled DLLs to git or appending AI co-author trailers.
